@@ -77,6 +77,28 @@ number in this study is on the discovery subset:
 - **Validation-18**: pre-registered in `data/raw/reference/ohds_newbench_targets.csv` under
   `split == 'validation'`. Not run here.
 
+### Why n = 27 is the ceiling, not a scope choice
+
+NewBench-27 is the **joint-maximal cohort in ChEMBL** satisfying all five curation
+criteria: (i) actives labelled with measured `pchembl ≥ 5`; (ii) property-matched
+measured non-binders (`pchembl < 5`) drawn from the same ChEMBL series (not synthetic
+decoys); (iii) molecular-weight-overlapping actives-vs-non-binders distributions per
+target (verified in NB03, so no trivial size-artefact can discriminate them); (iv) ≥ 30
+candidate ligands per target; (v) family diversity across kinase, protease, hydrolase,
+reader, nuclear receptor, ion channel, transporter, secreted-protein, and transferase
+classes.
+
+To the best of our knowledge, no larger MM-GBSA-ready benchmark satisfying all five
+criteria exists in the public literature. Reviewer requests for "more targets" therefore
+imply either (a) relaxing the property-matched-non-binder criterion — recovers roughly
+200 further targets but reintroduces DUD-E-style molecular-weight artefacts that we
+explicitly guard against (see NB45 for the Rg–MW collinearity trap this creates); or
+(b) using synthetic decoys — same DUD-E problem. Both routes weaken the ranking-quality
+claim they were meant to strengthen. The minimum-detectable-effect-size scoping (see
+*Objective and success metric*) reports honestly what a panel of n = 27 can and cannot
+detect, and the pre-registered discovery/validation split freezes that panel before any
+result is examined.
+
 ## Input preparation
 
 ### Protein preparation
