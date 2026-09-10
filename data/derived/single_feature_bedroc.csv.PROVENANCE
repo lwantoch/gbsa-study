@@ -1,0 +1,32 @@
+# PROVENANCE: data/derived/single_feature_bedroc.csv
+
+**Producer:** hand-run — no automated reproducer in `reproduce/`.
+
+**How it was made.** Exported by an ad-hoc cell in an earlier version of what is now
+`notebooks/28_single_feature_bedroc.ipynb` (was NB 16 in the pre-flatten numbering).
+The cell iterated every MD + ligand-chem column, computed the per-target BEDROC α=20
+under both "global direction from panel" and "oracle direction per target" conventions,
+and stamped `is_lig_chem` for each row so the downstream ranking could exclude the
+ligand-chemistry rows on request.
+
+**Columns:** `feature, is_lig_chem, direction, panel_bedroc_global_dir, panel_bedroc_oracle_dir, targets_beat_GBSA`.
+
+**Consumers.**
+- `notebooks/28_single_feature_bedroc.ipynb` — reads it to render the single-feature bar chart.
+- `notebooks/29_rank_fusion_deployable.ipynb` — reads the top-K ranking to build the
+  LOTO K-fusion sweep.
+- `notebooks/30_family_stratification.ipynb` — reads the top-5 MD features to run the
+  per-family recomputation on the recovered 9-target panel.
+- `reproduce/canonical_baselines.py` (via `hardened_claim_b.csv`) — does NOT depend on
+  this file directly, but the ranking convention here is what selects
+  `lig_partial_q_sum` as `top_feature_naive_9T`.
+
+**Status.** Live consumer inputs exist — cannot delete without breaking NB 28/29/30.
+Values were computed on the 8-target subset (pre-4A5S-recovery); the 9-target
+recompute lives in memory inside NB 30 (Section 3), never persisted.
+
+**To regenerate on demand.** Open `notebooks/28_single_feature_bedroc.ipynb`, run
+through the single-feature sweep cell, then export the resulting `sf` DataFrame
+with `sf.to_csv(DERIVED / 'single_feature_bedroc.csv', index=False)`. To promote
+this to a proper reproducer, wrap the sweep loop into
+`reproduce/single_feature_bedroc.py` and call it from `reproduce/README.md`.

@@ -1,0 +1,25 @@
+# PROVENANCE: data/derived/md_surrogate_bedroc.csv
+
+**Producer:** hand-run — no automated reproducer in `reproduce/`.
+
+**How it was made.** Exported by an ad-hoc cell in an earlier version of what is now
+`notebooks/22_bedroc_baselines.ipynb` (was NB 10 in the pre-flatten numbering).
+The cell built the joined table `MD features × metadata × GBSA @ locked combo`,
+computed BEDROC α=20 per target for three scorers (docking / GBSA_locked / MD_surrogate)
+and wrote the per-target values out. The current NB 22 code recomputes the same numbers
+inline but no longer persists them to disk — the CSV is a historical snapshot.
+
+**Columns:** `target, n_labeled, n_gbsa, docking, GBSA_locked, MD_surrogate, MD+lig_surrogate`.
+
+**Consumers.** No live consumer script or notebook reads this file. It is referenced
+by `notebooks/00_data_catalog.ipynb` (section 3) as a legacy artifact and by
+`docs/DATA_LINEAGE.md` for provenance.
+
+**Status.** Orphan / snapshot. Do NOT rely on it for new analyses — use
+`data/derived/canonical_baselines.csv` (produced by `reproduce/canonical_baselines.py`)
+for the authoritative panel BEDROC values, and rerun NB 22 to regenerate per-target
+values in memory.
+
+**To regenerate on demand.** Open `notebooks/22_bedroc_baselines.ipynb`, run through
+the "Connect to BEDROC" and "Per-target BEDROC" cells, then export the
+`bedroc_pivot` DataFrame with `bedroc_pivot.to_csv(DERIVED / 'md_surrogate_bedroc.csv')`.

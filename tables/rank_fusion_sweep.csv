@@ -1,0 +1,12 @@
+# LOTO Borda rank-fusion over top-K single features (NB 17).
+# Regenerate via: pixi run python reproduce/generate_summary_tables.py
+K,models,panel_bedroc,ci_lo,ci_hi
+1,lig_buried_sasa_std_A2,0.324,0.1588,0.4967
+2,"lig_buried_sasa_std_A2,lig_TPSA",0.3675,0.2227,0.5428
+3,"lig_buried_sasa_std_A2,lig_TPSA,rmsd_bb_mean_A",0.5076,0.3178,0.6951
+5,"lig_buried_sasa_std_A2,lig_TPSA,vdw_contacts_std,lig_orient_autocorr_mean,rmsd_bb_mean_A",0.4251,0.2548,0.6072
+8,"lig_buried_sasa_std_A2,lig_TPSA,rmsd_bb_mean_A,lig_orient_autocorr_mean,vdw_contacts_std,rmsd_as_bb_std_A,lig_rot_bonds,lig_HBD",0.4512,0.3105,0.597
+10,"lig_buried_sasa_std_A2,lig_TPSA,rmsd_bb_mean_A,lig_orient_autocorr_mean,vdw_contacts_std,rmsd_as_bb_std_A,lig_MW,lig_rot_bonds,lig_HBD,as_ca_rmsf_mean_A",0.5002,0.3318,0.6817
+15,"lig_buried_sasa_std_A2,lig_TPSA,vdw_contacts_std,lig_rot_bonds,rmsd_bb_mean_A,lig_orient_autocorr_mean,lig_MW,rmsd_as_bb_std_A,hb_persistence_frac,lig_HBD,lig_n_heavy,as_ca_rmsf_mean_A,lig_com_disp_last_A,lig_HBA,n_hb_mean",0.5256,0.3246,0.7142
+20,"lig_buried_sasa_std_A2,lig_TPSA,vdw_contacts_std,lig_rot_bonds,lig_HBD,rmsd_bb_mean_A,lig_orient_autocorr_mean,rmsd_as_bb_std_A,lig_MW,hb_persistence_frac,lig_n_heavy,lig_com_disp_last_A,lig_HBA,lig_buried_sasa_mean_A2,n_hb_std,as_ca_rmsf_mean_A,protein_rg_std_A,protein_rg_mean_A,lig_rg_mean_A,n_hb_mean",0.5728,0.3852,0.7556
+30,"lig_buried_sasa_std_A2,lig_TPSA,vdw_contacts_std,lig_rot_bonds,lig_HBD,rmsd_bb_mean_A,lig_orient_autocorr_mean,rmsd_as_bb_std_A,as_ca_rmsf_mean_A,lig_MW,hb_persistence_frac,lig_dipole_std_eA,lig_com_disp_last_A,lig_n_heavy,protein_rg_std_A,lig_HBA,protein_rg_mean_A,lig_buried_sasa_mean_A2,n_hb_std,n_hb_mean,lig_partial_q_abs_sum,lig_drift_last_A,lig_rg_mean_A,rmsd_as_bb_mean_A,rmsd_bb_std_A,salt_bridges_lp_mean,coulomb_mean_arb,vdw_contacts_mean,lig_LogP,lig_drift_mean_A",0.5545,0.3692,0.7298

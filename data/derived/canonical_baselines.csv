@@ -1,0 +1,10 @@
+# Canonical baseline panel BEDROC alpha=20 values -- SINGLE SOURCE OF TRUTH
+# Regenerate via: pixi run python reproduce/canonical_baselines.py
+# Verify with:   pixi run python reproduce/canonical_baselines.py --verify
+# Panel = 9 discovery targets, missing-target imputation = 0, bootstrap B=5000, seed=20260902
+baseline_name,panel_bedroc,ci_low,ci_high,n_targets,sp_config,provenance_notebook,provenance_data_file,computed_at_iso
+gbsa_locked_9T_imputed,0.5412,0.3585,0.7072,9,igb2_di4_salt0.15_st0.0072,notebooks/22_bedroc_baselines.ipynb; notebooks/29_rank_fusion_deployable.ipynb,"data/external/gbsa-study/data/raw/{metadata.csv,gbsa_dG_raw.csv}",2026-09-03T06:26:15+00:00
+gbsa_locked_8T_excluded,0.6088,0.4787,0.7483,8,igb2_di4_salt0.15_st0.0072,notebooks/22_bedroc_baselines.ipynb (4A5S dropped upstream),"data/external/gbsa-study/data/raw/{metadata.csv,gbsa_dG_raw.csv}",2026-09-03T06:26:15+00:00
+docking_9T,0.5158,0.302,0.7255,9,,notebooks/22_bedroc_baselines.ipynb; notebooks/05_docking_baseline.ipynb,data/external/gbsa-study/data/raw/metadata.csv,2026-09-03T06:26:15+00:00
+top_feature_naive_9T::lig_buried_sasa_std_A2,0.6029,0.394,0.7791,9,sign=+1 (top naive single-feature),notebooks/28_single_feature_bedroc.ipynb; notebooks/29_rank_fusion_deployable.ipynb,"data/derived/{hardened_claim_b.csv, features.parquet}",2026-09-03T06:26:15+00:00
+top_feature_mw_resid_9T::lig_TPSA,0.5953,0.422,0.7539,9,sign=+1 (top MW-residualised single-feature),notebooks/28_single_feature_bedroc.ipynb; notebooks/29_rank_fusion_deployable.ipynb,"data/derived/{hardened_claim_b.csv, features.parquet}",2026-09-03T06:26:15+00:00

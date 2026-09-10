@@ -1,0 +1,17 @@
+approach,panel_bedroc
+random combo (500 draws),0.347
+LOCKED sp-config (sp08),0.476
+"ORACLE (per-target argmax, upper bnd)",0.572
+P1 mean,0.476
+P1 RidgeCV,0.349
+P1 RandomForest,0.298
+P1 HGBT,0.476
+P2 constant,0.298
+P2 logistic,0.445
+P2 random forest,0.499
+P2 HGBT,0.47
+MD-composite,0.467
+docking_score baseline,0.516
+GBSA @ locked combo baseline,0.609
+"P3 HGBT full-fact, ML-picks combo",0.457
+"P3 HGBT full-fact, ML-ensemble",0.457
