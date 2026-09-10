@@ -1,0 +1,6 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASP:N	ASP:O	2
+ILE:N	UNK:O	1
+TYR:O	ASP:O	285
+UNK:N	ASP:O	6
+UNK:N	LEU:O	3

@@ -1,0 +1,9 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ALA:N	PHE:O	252
+HIS:N	MET:O	166
+HIS:N	SER:O	27
+MET:N	LEU:O	226
+SER:O	PHE:O	4
+SER:O	UNK:O	3
+TRP:N	MET:S	1
+UNK:N	SER:O	1

@@ -1,0 +1,11 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASN:N	GLN:O	35
+ASN:N	SER:O	34
+ASN:N	UNK:N	8
+GLN:N	ASN:N	1
+GLN:N	ASN:O	2
+GLN:N	GLN:O	4
+LYS:N	LEU:O	265
+LYS:N	UNK:N	37
+MET:N	ALA:O	260
+UNK:N	MET:S	33

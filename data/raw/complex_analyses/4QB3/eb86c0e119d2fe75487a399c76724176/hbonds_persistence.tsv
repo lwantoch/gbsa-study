@@ -1,0 +1,7 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASN:N	CYS:O	338
+ASN:N	CYS:S	3
+ASN:N	UNK:O	200
+ASP:N	ASP:O	1
+TYR:O	UNK:O	3
+UNK:N	ASP:O	1

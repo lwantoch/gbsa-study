@@ -1,0 +1,5 @@
+donor_ix	hydrogen_ix	acceptor_ix
+HIS:N	MET:O	201
+MET:N	LEU:O	202
+TRP:N	MET:S	1
+UNK:N	UNK:O	23

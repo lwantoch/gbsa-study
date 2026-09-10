@@ -1,0 +1,165 @@
+{
+  "n_frames_used_for_ts": 301,
+  "traj_dt_ps": 2.0,
+  "traj_n_frames": 15001,
+  "n_protein_residues": 388,
+  "n_ligand_atoms": 54,
+  "n_lig_heavy": 28,
+  "active_site_resids": [
+    {
+      "segid": "SYSTEM",
+      "resid": 36.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 37.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 39.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 71.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 72.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 73.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 74.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 128.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 129.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 130.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 200.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 226.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 228.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 230.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 329.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 330.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 331.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 332.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 333.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 334.0
+    }
+  ],
+  "n_active_site_residues": 20,
+  "protein_partial_charge": -11.000000000000146,
+  "protein_formal_charge": -11,
+  "protein_n_titratable": 107,
+  "active_site_partial_charge": 1.0000000000000027,
+  "active_site_formal_charge": 1,
+  "active_site_titratable_names": [
+    "TYR",
+    "TYR",
+    "ARG",
+    "ASP",
+    "LYS"
+  ],
+  "active_site_resnames": [
+    "ALA",
+    "ARG",
+    "ASN",
+    "ASP",
+    "GLY",
+    "ILE",
+    "LYS",
+    "PRO",
+    "SER",
+    "THR",
+    "TYR",
+    "VAL"
+  ],
+  "ligand_partial_charge_sum": -1.9999999998299156e-05,
+  "rmsd_bb_mean_A": 5.9107548330581094,
+  "rmsd_bb_std_A": 1.8253659907466164,
+  "rmsd_bb_last_A": 7.709434963005176,
+  "rmsd_as_bb_mean_A": 1.1225623511837548,
+  "rmsd_as_bb_std_A": 0.18861084870432557,
+  "lig_drift_mean_A": 13.902343484579955,
+  "lig_drift_std_A": 8.950923833963115,
+  "lig_drift_last_A": 22.483533381222124,
+  "lig_com_disp_mean_A": 12.584970503836177,
+  "lig_com_disp_max_A": 27.327067126853645,
+  "lig_com_disp_last_A": 21.325530542123694,
+  "lig_escape_frac": 0.8372093023255814,
+  "lig_buried_sasa_mean_A2": 259.45813398868944,
+  "lig_buried_sasa_std_A2": 106.6939257635163,
+  "coulomb_mean_arb": -0.004263319569701063,
+  "coulomb_std_arb": 0.12366484369218941,
+  "lig_rmsf_mean_A": 11.260886737643895,
+  "lig_rmsf_max_A": 12.26114311509908,
+  "n_hb_mean": 3.395348837209302,
+  "n_hb_std": 1.2810314163236913,
+  "hb_persistence_frac": 0.9933554817275747,
+  "n_water_bridges_mean": NaN,
+  "ifp_tanimoto_median_vs_ref": 0.23529411764705882,
+  "ifp_tanimoto_last_vs_ref": 0.0,
+  "ifp_tanimoto_entropy": 5.020149830628518,
+  "protein_rg_mean_A": 20.690214710336075,
+  "protein_rg_std_A": 0.10944093842848994,
+  "lig_internal_rmsd_mean_A": 1.3052486357687263,
+  "lig_internal_rmsd_std_A": 0.44048993173478224,
+  "lig_internal_rmsd_last_A": 1.0798552462741575,
+  "lig_rg_mean_A": 4.171980231815817,
+  "lig_asphericity_mean": 0.6154782183210179,
+  "lig_dipole_mean_eA": 1.7821606496602362,
+  "lig_dipole_std_eA": 0.5831824967704207,
+  "salt_bridges_lp_mean": 1.3388704318936877,
+  "salt_bridges_lp_persistence": 0.6013289036544851,
+  "vdw_contacts_mean": 13.242524916943522,
+  "vdw_contacts_std": 14.304390943668755,
+  "protein_ca_rmsf_mean_A": 1.1906167853864356,
+  "protein_ca_rmsf_max_A": 28.527764556852336,
+  "as_ca_rmsf_mean_A": 0.8594535559288852,
+  "as_ca_rmsf_max_A": 1.5046747918128212,
+  "lig_binding_modes_1A": 231,
+  "lig_binding_modes_2A": 107,
+  "lig_orient_autocorr_mean": 0.35004680891561696,
+  "lig_orient_autocorr_last": 0.2129381648239279,
+  "elapsed_seconds": 138.79531264305115
+}

@@ -1,0 +1,7 @@
+donor_ix	hydrogen_ix	acceptor_ix
+HIS:N	SER:O	18
+HIS:N	UNK:O	2
+PHE:N	CYS:S	9
+SER:O	CYS:O	1
+SER:O	UNK:O	1
+VAL:N	UNK:N	17

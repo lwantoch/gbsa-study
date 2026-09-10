@@ -1,0 +1,170 @@
+{
+  "n_frames_used_for_ts": 301,
+  "traj_dt_ps": 2.0,
+  "traj_n_frames": 15001,
+  "n_protein_residues": 211,
+  "n_ligand_atoms": 44,
+  "n_lig_heavy": 27,
+  "active_site_resids": [
+    {
+      "segid": "SYSTEM",
+      "resid": 34.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 37.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 38.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 41.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 79.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 82.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 83.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 84.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 93.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 94.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 96.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 97.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 121.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 122.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 124.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 125.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 136.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 138.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 148.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 169.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 170.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 172.0
+    }
+  ],
+  "n_active_site_residues": 22,
+  "protein_partial_charge": -10.000000000000096,
+  "protein_formal_charge": -10,
+  "protein_n_titratable": 68,
+  "active_site_partial_charge": -0.9999999999999953,
+  "active_site_formal_charge": -1,
+  "active_site_titratable_names": [
+    "TYR",
+    "ASP"
+  ],
+  "active_site_resnames": [
+    "ALA",
+    "ASN",
+    "ASP",
+    "GLY",
+    "ILE",
+    "LEU",
+    "MET",
+    "PHE",
+    "THR",
+    "TRP",
+    "TYR",
+    "VAL"
+  ],
+  "ligand_partial_charge_sum": -1.2000000000053634e-05,
+  "rmsd_bb_mean_A": 2.199916385441531,
+  "rmsd_bb_std_A": 0.5370858445587992,
+  "rmsd_bb_last_A": 3.0897458287890367,
+  "rmsd_as_bb_mean_A": 1.8925221323736279,
+  "rmsd_as_bb_std_A": 0.5883141919924654,
+  "lig_drift_mean_A": 6.705684569121534,
+  "lig_drift_std_A": 1.700217549163361,
+  "lig_drift_last_A": 6.729976044466511,
+  "lig_com_disp_mean_A": 2.7061603389824005,
+  "lig_com_disp_max_A": 7.404124909327341,
+  "lig_com_disp_last_A": 4.7674587472963355,
+  "lig_escape_frac": 0.2956810631229236,
+  "lig_buried_sasa_mean_A2": 516.8210100677229,
+  "lig_buried_sasa_std_A2": 48.672127779750326,
+  "coulomb_mean_arb": -0.04127706112444864,
+  "coulomb_std_arb": 0.14085839068007114,
+  "lig_rmsf_mean_A": 4.215011210375097,
+  "lig_rmsf_max_A": 5.695861593896366,
+  "n_hb_mean": 3.338870431893688,
+  "n_hb_std": 1.2803591895669166,
+  "hb_persistence_frac": 0.9966777408637874,
+  "n_water_bridges_mean": NaN,
+  "ifp_tanimoto_median_vs_ref": 0.45,
+  "ifp_tanimoto_last_vs_ref": 0.4,
+  "ifp_tanimoto_entropy": 8.026267461914697,
+  "protein_rg_mean_A": 17.215774585869255,
+  "protein_rg_std_A": 0.3802902739119958,
+  "lig_internal_rmsd_mean_A": 1.490744340151757,
+  "lig_internal_rmsd_std_A": 0.33419342685434655,
+  "lig_internal_rmsd_last_A": 1.2094573110989977,
+  "lig_rg_mean_A": 4.60111309612337,
+  "lig_asphericity_mean": 0.6769352440610739,
+  "lig_dipole_mean_eA": 0.7686638447475638,
+  "lig_dipole_std_eA": 0.2268077843349619,
+  "salt_bridges_lp_mean": 0.1760797342192691,
+  "salt_bridges_lp_persistence": 0.16611295681063123,
+  "vdw_contacts_mean": 39.332225913621265,
+  "vdw_contacts_std": 15.041115014934386,
+  "protein_ca_rmsf_mean_A": 1.4759126646010938,
+  "protein_ca_rmsf_max_A": 5.778305812363314,
+  "as_ca_rmsf_mean_A": 1.3121019199261967,
+  "as_ca_rmsf_max_A": 3.2145010931388254,
+  "lig_binding_modes_1A": 194,
+  "lig_binding_modes_2A": 50,
+  "lig_orient_autocorr_mean": 0.21799182796188896,
+  "lig_orient_autocorr_last": 0.0001143663054198849,
+  "elapsed_seconds": 115.96684265136719
+}

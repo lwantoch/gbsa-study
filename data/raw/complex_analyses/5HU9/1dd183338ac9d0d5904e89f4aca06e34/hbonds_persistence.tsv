@@ -1,0 +1,6 @@
+donor_ix	hydrogen_ix	acceptor_ix
+GLU:N	ALA:O	100
+THR:N	GLU:O	7
+THR:N	PHE:O	26
+THR:N	UNK:N	1
+UNK:N	GLU:O	21

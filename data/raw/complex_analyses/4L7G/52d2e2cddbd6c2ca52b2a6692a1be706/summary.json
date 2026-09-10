@@ -1,0 +1,169 @@
+{
+  "n_frames_used_for_ts": 301,
+  "traj_dt_ps": 2.0,
+  "traj_n_frames": 15001,
+  "n_protein_residues": 388,
+  "n_ligand_atoms": 50,
+  "n_lig_heavy": 30,
+  "active_site_resids": [
+    {
+      "segid": "SYSTEM",
+      "resid": 32.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 34.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 73.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 74.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 75.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 110.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 117.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 120.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 230.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 232.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 233.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 234.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 235.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 237.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 265.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 266.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 267.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 309.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 323.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 327.0
+    }
+  ],
+  "n_active_site_residues": 20,
+  "protein_partial_charge": -11.000000000000146,
+  "protein_formal_charge": -11,
+  "protein_n_titratable": 107,
+  "active_site_partial_charge": 3.4416913763379853e-15,
+  "active_site_formal_charge": 0,
+  "active_site_titratable_names": [
+    "ARG",
+    "GLU",
+    "ARG",
+    "LYS",
+    "TYR",
+    "ASP",
+    "ASP"
+  ],
+  "active_site_resnames": [
+    "ARG",
+    "ASN",
+    "ASP",
+    "GLN",
+    "GLU",
+    "GLY",
+    "ILE",
+    "LEU",
+    "LYS",
+    "PHE",
+    "SER",
+    "THR",
+    "TRP",
+    "TYR"
+  ],
+  "ligand_partial_charge_sum": 3.000000000030756e-06,
+  "rmsd_bb_mean_A": 4.253494700227734,
+  "rmsd_bb_std_A": 0.6357493446912702,
+  "rmsd_bb_last_A": 2.6922316886097186,
+  "rmsd_as_bb_mean_A": 1.2993113883566754,
+  "rmsd_as_bb_std_A": 0.19193392023408773,
+  "lig_drift_mean_A": 2.208905868593966,
+  "lig_drift_std_A": 0.7950388227632652,
+  "lig_drift_last_A": 6.619709551048577,
+  "lig_com_disp_mean_A": 1.3853492948165183,
+  "lig_com_disp_max_A": 4.939902692056142,
+  "lig_com_disp_last_A": 4.939902692056142,
+  "lig_escape_frac": 0.029900332225913623,
+  "lig_buried_sasa_mean_A2": 474.8754264820888,
+  "lig_buried_sasa_std_A2": 28.279142658298763,
+  "coulomb_mean_arb": -0.10531825184076772,
+  "coulomb_std_arb": 0.22835716911194495,
+  "lig_rmsf_mean_A": 1.7652424725347402,
+  "lig_rmsf_max_A": 2.6927153797031442,
+  "n_hb_mean": 3.46843853820598,
+  "n_hb_std": 1.0767092817709356,
+  "hb_persistence_frac": 1.0,
+  "n_water_bridges_mean": NaN,
+  "ifp_tanimoto_median_vs_ref": 0.7368421052631579,
+  "ifp_tanimoto_last_vs_ref": 0.4444444444444444,
+  "ifp_tanimoto_entropy": 6.0241075390101635,
+  "protein_rg_mean_A": 20.734001417363032,
+  "protein_rg_std_A": 0.0999472043327814,
+  "lig_internal_rmsd_mean_A": 0.7290495897850466,
+  "lig_internal_rmsd_std_A": 0.3253239794313461,
+  "lig_internal_rmsd_last_A": 1.2135834931655312,
+  "lig_rg_mean_A": 4.356445813654501,
+  "lig_asphericity_mean": 0.686694870527086,
+  "lig_dipole_mean_eA": 2.045434176807828,
+  "lig_dipole_std_eA": 0.17585085960361263,
+  "salt_bridges_lp_mean": 0.9235880398671097,
+  "salt_bridges_lp_persistence": 0.6511627906976745,
+  "vdw_contacts_mean": 41.91029900332226,
+  "vdw_contacts_std": 9.972816553525126,
+  "protein_ca_rmsf_mean_A": 0.9596428632969333,
+  "protein_ca_rmsf_max_A": 25.716241260500468,
+  "as_ca_rmsf_mean_A": 0.7656863313954341,
+  "as_ca_rmsf_max_A": 1.6831385470629032,
+  "lig_binding_modes_1A": 71,
+  "lig_binding_modes_2A": 11,
+  "lig_orient_autocorr_mean": 0.9503372357516164,
+  "lig_orient_autocorr_last": 0.6956232666469145,
+  "elapsed_seconds": 156.0610854625702
+}

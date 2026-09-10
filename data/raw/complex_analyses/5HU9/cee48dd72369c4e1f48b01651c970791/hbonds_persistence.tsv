@@ -1,0 +1,6 @@
+donor_ix	hydrogen_ix	acceptor_ix
+GLU:N	ALA:O	14
+GLU:N	GLU:O	54
+LYS:N	GLU:O	95
+LYS:N	PHE:O	3
+LYS:N	UNK:N	1

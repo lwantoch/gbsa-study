@@ -1,0 +1,166 @@
+{
+  "n_frames_used_for_ts": 301,
+  "traj_dt_ps": 2.0,
+  "traj_n_frames": 15001,
+  "n_protein_residues": 355,
+  "n_ligand_atoms": 35,
+  "n_lig_heavy": 22,
+  "active_site_resids": [
+    {
+      "segid": "SYSTEM",
+      "resid": 24.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 32.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 45.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 47.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 78.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 98.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 99.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 100.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 102.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 103.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 104.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 105.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 106.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 147.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 148.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 149.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 150.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 151.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 160.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 176.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 177.0
+    }
+  ],
+  "n_active_site_residues": 21,
+  "protein_partial_charge": -5.000000000000174,
+  "protein_formal_charge": -5,
+  "protein_n_titratable": 121,
+  "active_site_partial_charge": 3.3306690738754696e-16,
+  "active_site_formal_charge": 0,
+  "active_site_titratable_names": [
+    "ASP",
+    "TYR",
+    "LYS"
+  ],
+  "active_site_resnames": [
+    "ALA",
+    "ASN",
+    "ASP",
+    "ILE",
+    "LEU",
+    "LYS",
+    "MET",
+    "PRO",
+    "SER",
+    "TYR",
+    "VAL"
+  ],
+  "ligand_partial_charge_sum": 9.999999998344666e-07,
+  "rmsd_bb_mean_A": 4.6116199565491796,
+  "rmsd_bb_std_A": 1.3217033385726056,
+  "rmsd_bb_last_A": 13.120813328796606,
+  "rmsd_as_bb_mean_A": 3.56100722021778,
+  "rmsd_as_bb_std_A": 0.8600895919710699,
+  "lig_drift_mean_A": 5.321890940165144,
+  "lig_drift_std_A": 1.4406266077881815,
+  "lig_drift_last_A": 4.344285201114304,
+  "lig_com_disp_mean_A": 4.806942106471199,
+  "lig_com_disp_max_A": 8.358595568455994,
+  "lig_com_disp_last_A": 3.8659311709948567,
+  "lig_escape_frac": 0.9036544850498339,
+  "lig_buried_sasa_mean_A2": 346.1897294247826,
+  "lig_buried_sasa_std_A2": 33.50256990953593,
+  "coulomb_mean_arb": 0.006882674274811941,
+  "coulomb_std_arb": 0.10705604731717187,
+  "lig_rmsf_mean_A": 2.221225435196391,
+  "lig_rmsf_max_A": 2.981476072375424,
+  "n_hb_mean": 3.009966777408638,
+  "n_hb_std": 0.9417769654843218,
+  "hb_persistence_frac": 1.0,
+  "n_water_bridges_mean": NaN,
+  "ifp_tanimoto_median_vs_ref": 0.6470588235294118,
+  "ifp_tanimoto_last_vs_ref": 0.7058823529411765,
+  "ifp_tanimoto_entropy": 3.4592575544101756,
+  "protein_rg_mean_A": 21.809099824765276,
+  "protein_rg_std_A": 0.3045504583497251,
+  "lig_internal_rmsd_mean_A": 0.4533072947979432,
+  "lig_internal_rmsd_std_A": 0.13554779084714458,
+  "lig_internal_rmsd_last_A": 0.4425055840582545,
+  "lig_rg_mean_A": 3.79880182375575,
+  "lig_asphericity_mean": 0.6850061361366983,
+  "lig_dipole_mean_eA": 1.3558782092615949,
+  "lig_dipole_std_eA": 0.3128312180417806,
+  "salt_bridges_lp_mean": 0.009966777408637873,
+  "salt_bridges_lp_persistence": 0.009966777408637873,
+  "vdw_contacts_mean": 34.88704318936877,
+  "vdw_contacts_std": 10.76480043784246,
+  "protein_ca_rmsf_mean_A": 1.8237804214046578,
+  "protein_ca_rmsf_max_A": 28.902200004682932,
+  "as_ca_rmsf_mean_A": 1.2299356968028132,
+  "as_ca_rmsf_max_A": 5.050837949350293,
+  "lig_binding_modes_1A": 58,
+  "lig_binding_modes_2A": 12,
+  "lig_orient_autocorr_mean": 0.5043846291355014,
+  "lig_orient_autocorr_last": 0.5956550815457575,
+  "elapsed_seconds": 169.68575477600098
+}

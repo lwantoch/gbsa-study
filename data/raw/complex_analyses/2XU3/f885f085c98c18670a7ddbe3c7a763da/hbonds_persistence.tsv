@@ -1,0 +1,11 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASN:N	TRP:O	2
+GLN:N	ASN:O	1
+GLN:N	GLN:O	58
+GLN:N	GLY:O	2
+GLN:N	UNK:N	1
+GLU:N	GLU:O	59
+GLY:N	ASN:O	157
+HIS:N	ALA:O	43
+LEU:N	HIS:O	270
+TRP:N	GLN:N	2

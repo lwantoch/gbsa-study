@@ -1,0 +1,8 @@
+donor_ix	hydrogen_ix	acceptor_ix
+GLN:N	LEU:O	41
+GLN:N	UNK:N	1
+GLN:N	UNK:O	14
+LEU:N	GLN:O	3
+LEU:N	UNK:O	1
+UNK:N	GLN:O	9
+UNK:N	GLU:O	3

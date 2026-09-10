@@ -1,0 +1,10 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASP:N	LEU:O	203
+HIS:N	ASP:O	217
+HIS:N	SER:O	7
+LEU:N	ASP:O	83
+SER:O	ASP:O	296
+TYR:O	UNK:O	26
+UNK:N	SER:O	14
+UNK:N	TYR:O	7
+VAL:N	ASP:O	87

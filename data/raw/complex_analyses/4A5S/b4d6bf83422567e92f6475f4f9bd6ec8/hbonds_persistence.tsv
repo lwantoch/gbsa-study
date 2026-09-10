@@ -1,0 +1,12 @@
+donor_ix	hydrogen_ix	acceptor_ix
+SER:O	SOL:O	4
+SER:O	THR:O	1
+SER:O	TYR:O	1
+SER:O	UNK:N	3
+TRP:N	UNK:N	1
+TYR:O	SOL:O	1
+TYR:O	UNK:N	4
+TYR:O	UNK:O	3
+UNK:N	TRP:N	2
+UNK:N	TYR:O	3
+UNK:N	UNK:O	2

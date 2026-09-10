@@ -1,0 +1,8 @@
+donor_ix	hydrogen_ix	acceptor_ix
+THR:O	UNK:O	11
+TRP:N	UNK:O	1
+TYR:O	ALA:O	77
+TYR:O	UNK:N	5
+TYR:O	UNK:O	1
+UNK:N	TRP:N	3
+UNK:N	TYR:O	18

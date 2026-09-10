@@ -1,0 +1,12 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ALA:N	ASN:O	84
+ASN:N	ASP:O	1
+ASN:N	UNK:N	11
+GLY:N	LEU:O	3
+TYR:N	VAL:O	97
+TYR:O	ALA:O	25
+TYR:O	UNK:N	4
+UNK:N	ASN:O	24
+UNK:N	GLY:O	36
+UNK:N	LEU:O	5
+UNK:N	MET:S	1

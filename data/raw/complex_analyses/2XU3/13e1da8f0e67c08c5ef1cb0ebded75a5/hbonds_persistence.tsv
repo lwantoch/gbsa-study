@@ -1,0 +1,9 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASN:N	SOL:O	1
+GLU:N	GLU:O	33
+HIS:N	ALA:O	24
+HIS:N	HIS:N	1
+PHE:N	GLU:O	216
+UNK:N	UNK:O	7
+UNK:O	GLU:O	8
+UNK:O	GLY:O	1

@@ -1,0 +1,6 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASN:N	ASN:O	1
+ASN:N	ASP:O	8
+ASN:N	UNK:N	10
+TYR:O	SOL:O	1
+UNK:N	ASP:O	5

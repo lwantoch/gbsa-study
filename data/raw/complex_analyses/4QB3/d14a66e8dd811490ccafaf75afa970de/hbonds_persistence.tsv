@@ -1,0 +1,10 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASN:N	UNK:O	6
+ASP:N	ASP:O	6
+ASP:N	PRO:O	1
+GLN:N	PRO:O	8
+GLN:N	TRP:O	99
+GLN:N	UNK:O	8
+ILE:N	ASP:O	3
+UNK:N	GLN:O	134
+UNK:N	PRO:O	2

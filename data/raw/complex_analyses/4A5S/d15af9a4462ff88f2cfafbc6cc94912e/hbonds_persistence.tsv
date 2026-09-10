@@ -1,0 +1,13 @@
+donor_ix	hydrogen_ix	acceptor_ix
+GLN:N	GLN:N	1
+GLN:N	GLN:O	189
+GLN:N	UNK:O	5
+LYS:N	ALA:O	248
+LYS:N	GLN:N	1
+LYS:N	GLN:O	8
+SER:O	ALA:O	2
+SER:O	UNK:O	1
+TRP:N	UNK:N	5
+TRP:N	UNK:O	5
+UNK:N	TRP:N	6
+UNK:N	UNK:O	1

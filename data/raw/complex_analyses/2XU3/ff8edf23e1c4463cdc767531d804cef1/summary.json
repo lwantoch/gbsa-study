@@ -1,0 +1,171 @@
+{
+  "n_frames_used_for_ts": 301,
+  "traj_dt_ps": 2.0,
+  "traj_n_frames": 15001,
+  "n_protein_residues": 220,
+  "n_ligand_atoms": 42,
+  "n_lig_heavy": 19,
+  "active_site_resids": [
+    {
+      "segid": "SYSTEM",
+      "resid": 23.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 24.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 25.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 26.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 61.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 62.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 63.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 65.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 66.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 67.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 68.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 69.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 70.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 72.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 135.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 136.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 161.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 162.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 163.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 164.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 214.0
+    }
+  ],
+  "n_active_site_residues": 21,
+  "protein_partial_charge": -11.999999999999954,
+  "protein_formal_charge": -12,
+  "protein_n_titratable": 73,
+  "active_site_partial_charge": -1.9999999999999978,
+  "active_site_formal_charge": -2,
+  "active_site_titratable_names": [
+    "ASP",
+    "CYS",
+    "GLU",
+    "TYR",
+    "HIS",
+    "CYS"
+  ],
+  "active_site_resnames": [
+    "ALA",
+    "ASN",
+    "ASP",
+    "CYS",
+    "GLU",
+    "GLY",
+    "HIS",
+    "ILE",
+    "LEU",
+    "MET",
+    "SER",
+    "TRP",
+    "TYR"
+  ],
+  "ligand_partial_charge_sum": -6.000000000089267e-06,
+  "rmsd_bb_mean_A": 4.661872018133896,
+  "rmsd_bb_std_A": 0.7886208792071224,
+  "rmsd_bb_last_A": 5.472257545156874,
+  "rmsd_as_bb_mean_A": 0.708357531158527,
+  "rmsd_as_bb_std_A": 0.12071459731090237,
+  "lig_drift_mean_A": 1.937188804474957,
+  "lig_drift_std_A": 0.44572169736377387,
+  "lig_drift_last_A": 2.208632635887104,
+  "lig_com_disp_mean_A": 0.4619340748559028,
+  "lig_com_disp_max_A": 1.685488944602705,
+  "lig_com_disp_last_A": 0.4569744541989634,
+  "lig_escape_frac": 0.0,
+  "lig_buried_sasa_mean_A2": 379.22535207894,
+  "lig_buried_sasa_std_A2": 15.631565506189666,
+  "coulomb_mean_arb": -0.025151039586304838,
+  "coulomb_std_arb": 0.15781630530366517,
+  "lig_rmsf_mean_A": 0.7909759344776383,
+  "lig_rmsf_max_A": 1.64667860907112,
+  "n_hb_mean": 6.152823920265781,
+  "n_hb_std": 1.4106501642644957,
+  "hb_persistence_frac": 1.0,
+  "n_water_bridges_mean": NaN,
+  "ifp_tanimoto_median_vs_ref": 0.8947368421052632,
+  "ifp_tanimoto_last_vs_ref": 0.8888888888888888,
+  "ifp_tanimoto_entropy": 2.176335341150683,
+  "protein_rg_mean_A": 16.63746980645892,
+  "protein_rg_std_A": 0.12977580847001133,
+  "lig_internal_rmsd_mean_A": 1.019383870505657,
+  "lig_internal_rmsd_std_A": 0.34033745453143494,
+  "lig_internal_rmsd_last_A": 1.2344995561601928,
+  "lig_rg_mean_A": 3.600625474890987,
+  "lig_asphericity_mean": 0.5347693417128037,
+  "lig_dipole_mean_eA": 1.056813768016211,
+  "lig_dipole_std_eA": 0.2706772687767663,
+  "salt_bridges_lp_mean": 0.0,
+  "salt_bridges_lp_persistence": 0.0,
+  "vdw_contacts_mean": 43.053156146179404,
+  "vdw_contacts_std": 7.87720322007137,
+  "protein_ca_rmsf_mean_A": 1.0597171757613988,
+  "protein_ca_rmsf_max_A": 29.64132653417615,
+  "as_ca_rmsf_mean_A": 0.6147013083101854,
+  "as_ca_rmsf_max_A": 0.8536944475888046,
+  "lig_binding_modes_1A": 24,
+  "lig_binding_modes_2A": 2,
+  "lig_orient_autocorr_mean": 0.7077530329246922,
+  "lig_orient_autocorr_last": 0.3070856012997055,
+  "elapsed_seconds": 88.55090475082397
+}

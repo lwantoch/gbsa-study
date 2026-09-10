@@ -1,0 +1,11 @@
+donor_ix	hydrogen_ix	acceptor_ix
+CYS:N	VAL:O	261
+GLU:N	GLU:O	54
+LYS:N	LEU:O	265
+MET:N	UNK:N	41
+TYR:O	ILE:O	1
+TYR:O	LEU:O	18
+UNK:N	ILE:O	1
+UNK:N	MET:O	29
+UNK:N	TYR:O	2
+VAL:N	CYS:O	250

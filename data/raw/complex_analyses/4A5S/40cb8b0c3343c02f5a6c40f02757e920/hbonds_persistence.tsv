@@ -1,0 +1,6 @@
+donor_ix	hydrogen_ix	acceptor_ix
+ASP:N	THR:O	177
+THR:O	ASP:O	3
+THR:O	THR:O	1
+THR:O	UNK:O	1
+TYR:O	UNK:O	1

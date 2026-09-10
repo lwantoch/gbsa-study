@@ -1,0 +1,136 @@
+{
+  "n_frames_used_for_ts": 301,
+  "traj_dt_ps": 2.0,
+  "traj_n_frames": 15001,
+  "n_protein_residues": 355,
+  "n_ligand_atoms": 26,
+  "n_lig_heavy": 16,
+  "active_site_resids": [
+    {
+      "segid": "SYSTEM",
+      "resid": 24.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 25.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 32.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 45.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 100.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 101.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 102.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 103.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 104.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 105.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 106.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 109.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 150.0
+    },
+    {
+      "segid": "SYSTEM",
+      "resid": 160.0
+    }
+  ],
+  "n_active_site_residues": 14,
+  "protein_partial_charge": -5.000000000000174,
+  "protein_formal_charge": -5,
+  "protein_n_titratable": 121,
+  "active_site_partial_charge": -1.9999999999999982,
+  "active_site_formal_charge": -2,
+  "active_site_titratable_names": [
+    "GLU",
+    "ASP"
+  ],
+  "active_site_resnames": [
+    "ALA",
+    "ASN",
+    "ASP",
+    "GLN",
+    "GLU",
+    "GLY",
+    "ILE",
+    "LEU",
+    "MET",
+    "VAL"
+  ],
+  "ligand_partial_charge_sum": 1.1999999999734445e-05,
+  "rmsd_bb_mean_A": 4.283390183910142,
+  "rmsd_bb_std_A": 1.0594697182858681,
+  "rmsd_bb_last_A": 5.166786922905906,
+  "rmsd_as_bb_mean_A": 0.9719738712359447,
+  "rmsd_as_bb_std_A": 0.19383398907996352,
+  "lig_drift_mean_A": 5.788971137461024,
+  "lig_drift_std_A": 0.944216560266024,
+  "lig_drift_last_A": 6.227611591771214,
+  "lig_com_disp_mean_A": 1.1600391098205465,
+  "lig_com_disp_max_A": 4.1738230678634425,
+  "lig_com_disp_last_A": 1.528123404310454,
+  "lig_escape_frac": 0.019933554817275746,
+  "lig_buried_sasa_mean_A2": 332.71713429525215,
+  "lig_buried_sasa_std_A2": 17.21916589768731,
+  "coulomb_mean_arb": 0.0,
+  "coulomb_std_arb": 0.0,
+  "lig_rmsf_mean_A": 1.8558669122161562,
+  "lig_rmsf_max_A": 2.7444795041158834,
+  "n_hb_mean": 1.0498338870431894,
+  "n_hb_std": 0.8708122219484851,
+  "hb_persistence_frac": 0.7009966777408638,
+  "n_water_bridges_mean": NaN,
+  "ifp_tanimoto_median_vs_ref": 0.8571428571428571,
+  "ifp_tanimoto_last_vs_ref": 0.8571428571428571,
+  "ifp_tanimoto_entropy": 1.59770893024581,
+  "protein_rg_mean_A": 21.900655622307138,
+  "protein_rg_std_A": 0.1772217324629765,
+  "lig_internal_rmsd_mean_A": 0.46878271882177686,
+  "lig_internal_rmsd_std_A": 0.12007739856718685,
+  "lig_internal_rmsd_last_A": 0.5640112186221949,
+  "lig_rg_mean_A": 2.74112189756177,
+  "lig_asphericity_mean": 0.6555289992329829,
+  "lig_dipole_mean_eA": 0.0,
+  "lig_dipole_std_eA": 0.0,
+  "salt_bridges_lp_mean": 0.0,
+  "salt_bridges_lp_persistence": 0.0,
+  "vdw_contacts_mean": 32.564784053156146,
+  "vdw_contacts_std": 8.335965927437575,
+  "protein_ca_rmsf_mean_A": 1.4477096461196604,
+  "protein_ca_rmsf_max_A": 29.363303707318313,
+  "as_ca_rmsf_mean_A": 0.8869770589901608,
+  "as_ca_rmsf_max_A": 1.506178001408444,
+  "lig_binding_modes_1A": 28,
+  "lig_binding_modes_2A": 11,
+  "lig_orient_autocorr_mean": 0.6483908997179032,
+  "lig_orient_autocorr_last": 0.855588134956546,
+  "elapsed_seconds": 164.15495538711548
+}

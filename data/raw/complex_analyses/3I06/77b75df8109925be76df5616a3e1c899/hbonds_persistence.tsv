@@ -1,0 +1,5 @@
+donor_ix	hydrogen_ix	acceptor_ix
+GLY:N	CYS:O	2
+GLY:N	UNK:N	145
+SER:O	SER:O	1
+UNK:N	SER:O	208

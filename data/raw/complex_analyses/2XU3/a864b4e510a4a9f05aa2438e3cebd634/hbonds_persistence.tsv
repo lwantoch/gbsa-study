@@ -1,0 +1,11 @@
+donor_ix	hydrogen_ix	acceptor_ix
+CYS:N	GLY:O	3
+GLY:N	CYS:O	2
+GLY:N	CYS:S	164
+GLY:N	HIS:N	6
+GLY:N	UNK:O	208
+TRP:N	GLY:O	19
+TYR:O	UNK:O	93
+UNK:N	ASP:O	180
+UNK:N	GLY:O	196
+UNK:N	MET:O	1
