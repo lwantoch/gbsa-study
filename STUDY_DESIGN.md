@@ -83,8 +83,9 @@ number in this study is on the discovery subset:
 
 Receptor structures for the discovery-9 subset are prepared with the in-house **FRUTON**
 framework (Framework for Reconstruction, UniProt alignment, and Topology-Oriented protein
-Normalization), which converts cropped or otherwise non-trivial PDB inputs into
-simulation-ready assemblies through an explicit, state-driven chain. Raw structures are
+Normalization), which converts cropped or otherwise non-trivial UNIPROT/PDB inputs into
+simulation-ready assemblies through an explicit, state-driven chain that treats the
+UNIPROT sequence and the PDB coordinate deposition as a single joint reference. Raw structures are
 parsed into a FASTA sequence and aligned to their canonical UniProt entry to establish which
 residue numbering the coordinate file actually represents. Insertion codes and repeated
 coordinate copies of the same chain are then normalised, and a representative-unit selector
