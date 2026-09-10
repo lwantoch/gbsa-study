@@ -1,0 +1,61 @@
+# --- Python / Jupyter noise ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# --- environment (pixi solver output + venv, never committed) ---
+# env/pixi.toml and env/pixi.lock ARE tracked (they define the env); everything
+# under .pixi/ is the solver-produced cache and is ephemeral.
+.pixi/
+.pixi-cache/
+.venv/
+env/.pixi/
+env/.pixi-cache/
+# Store2 uni-quota symlink leak
+env/apps/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- heavy data — trajectories and per-complex work never enter git ---
+# Raw MMBSA per-complex work directories: keep the CSVs, drop the raw process dirs.
+data/raw/complex_analyses/*/*/process/
+data/raw/complex_analyses/*/*/topol.top
+data/raw/complex_analyses/*/*/*.xtc
+data/raw/complex_analyses/*/*/*.trr
+
+# External input caches (large, downloaded/symlinked, not part of source)
+data/external/_local/
+data/external/*.zip
+# newbench15/ is the OHDS code snapshot (its own embedded git repo). Reviewers can
+# fetch it separately per data/external/README.md; the CSVs we actually consume are
+# copied into data/raw/reference/ (small, tracked).
+# symlinks that point to Store_othcxlwa mirrors — non-portable, so gitignored
+# (regardless of trailing-slash: match both symlink-to-file and symlink-to-dir)
+data/external/newbench15
+data/external/newbench15/
+data/external/gbsa-study
+data/external/study2_full
+data/external/study2_full/
+data/external/study2_pilot
+data/external/study2_pilot/
+
+# --- reproduction OUTPUTS (long SLURM runs land here, gitignored) ---
+outputs/**
+!outputs/README.md
+!outputs/.gitkeep
+
+# --- internal review notes, not for public review bundle ---
+reviews/
+
+# --- transient scripts / logs ---
+scripts/*.log
+*.log

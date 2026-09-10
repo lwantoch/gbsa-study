@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite as below."
+authors:
+  - family-names: Wantoch
+    given-names: Lukasz
+    affiliation: "IDIS / SERGAS"
+    email: lukasz.wantoch@sergas.es
+title: "Discovery-9: MD x MM-GBSA analysis for virtual screening rescoring"
+version: 0.3.0
+date-released: 2026-09-01

@@ -1,0 +1,18 @@
+# Notebook outputs are never committed — they regenerate from the raw data that ships
+# in this repo (data/raw + data/external), and every figure is already tracked under figures/.
+#
+# The clean filter strips outputs on `git add`; your working copy keeps them, so interactive
+# work and re-execution are unaffected. Enable it once per clone (a git filter is local config,
+# so a repository cannot ship it for you):
+#
+#     nbstripout --install --attributes .gitattributes
+#     git config filter.nbstripout.clean "$(git config filter.nbstripout.clean) --keep-id"
+#     git config filter.nbstripout.extrakeys "metadata.language_info metadata.celltoolbar"
+#
+# --keep-id matters: without it nbstripout renumbers cell ids to 0,1,2,…, so inserting one cell
+# renumbers every cell after it — the exact diff noise this is meant to remove.
+#
+# extrakeys drops metadata.language_info, which records the interpreter that last executed the
+# notebook (e.g. "3.11.15") — churns per contributor and says nothing about the analysis.
+*.ipynb filter=nbstripout
+*.ipynb diff=ipynb
