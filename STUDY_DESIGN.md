@@ -298,27 +298,18 @@ per-complex ΔG variance directly.
   expensive reference of Experiment A1 — winners whose BEDROC point estimate stays inside
   the reference CI *at their cheaper MDP cost* are the deployable configurations.
 
-  **No MPS packing in this study — each chain gets a whole A100.** The compute-cost axis
-  of the cost-vs-BEDROC Pareto plot (see *Objective and success metric*) requires per-chain
-  wallclock that reflects the intrinsic MDP speed. If several chains share a GPU via MPS,
-  per-chain wallclock is dominated by contention effects rather than by the MDP itself,
-  and the BO-winner speed differences this study is trying to measure get masked. GPU
-  sharing via MPS is the topic of the companion GPU-MPS-Performance study
-  [@gromacs_mps_study] and is deliberately excluded here. Each `submit_array_mps.sbatch`
-  task is launched with `LIGANDS_PER_TASK=1` and `PIPELINE_MPS_DISABLE=1`, so one array
-  task = one chain = one A100 for its full wallclock.
+  Each chain runs on a dedicated GPU for its full wallclock, so the per-chain wallclock
+  measured here reflects the intrinsic MDP speed and can be used directly as the compute-cost
+  axis of the cost-vs-BEDROC Pareto plot (see *Objective and success metric*). Any per-GPU
+  co-location optimisation is out of scope for this study — the concern here is what a
+  cheaper MDP costs and delivers on a single-chain-per-GPU baseline, not what a scheduler
+  could squeeze out of a shared GPU.
 
-  The deployment is chained through a watcher on the short partition
-  (`bo_waves_watcher.sbatch`) that respects the QoS `medium` limits (`MaxSubmit = 50` and
-  `MaxJobs = 30` per user, both of which count array tasks individually). Each 720-chain
-  wave splits into 24 sub-batches of 30 tasks (labels `a..x`), giving 120 batches total
-  across the five waves; the watcher polls `squeue -r` (array-expanded) to know when
-  enough `MaxSubmit` headroom exists before submitting the next batch. Per (target,
-  ligand) the median, standard deviation, and range across the 15 replicas are reported,
-  and per BO-winner the mean per-chain wallclock (docking + MD + GBSA) is aggregated into
-  the compute-cost axis of the Pareto plot. Cross-references against Experiment B1a
-  (setup Δ) and B1b (baseline_8t Δ) land in a tri-source living notebook that re-reads
-  the aggregated CSVs on every execution.
+  Per (target, ligand) the median, standard deviation, and range across the 15 replicas
+  are reported, and per BO-winner the mean per-chain wallclock (docking + MD + GBSA) is
+  aggregated into the compute-cost axis of the Pareto plot. Cross-references against
+  Experiment B1a (setup Δ) and B1b (baseline_8t Δ) land in a tri-source living notebook
+  that re-reads the aggregated CSVs on every execution.
 
 ## Proposed timeline
 
