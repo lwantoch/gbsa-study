@@ -1,0 +1,5 @@
+- fix cell 17 markdown/code split; move top-10 print block to code cell 15
+- Add ε² effect size + log-fitness spread
+- 90%-text placement + drop redundant winner annotate
+- percent spacing normalized
+- "overstate" → "overstates"

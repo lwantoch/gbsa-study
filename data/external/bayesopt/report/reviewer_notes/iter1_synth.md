@@ -1,0 +1,14 @@
+# Iter 1 changes applied
+- cell 0: goal sentence tightened (removed vague "for a larger pipeline")
+- cell 1: DB path env-tunable via BAYES_OPT_DB, added os import
+- cell 3: n_combos → space_df['n_choices'].prod() idiom
+- cell 5: collapsed np.where for ns_per_day (NaN propagates)
+- cell 7: median-line color NAVY dotted (was GREYD colliding with unstable markers)
+- cell 8: "in-time density drift" → "density drift over the window"
+- cell 12: boxes sorted by median, winner box GOLD, KW test, n>=5 filter, list(groups) idiom
+- cell 13: tightened observations bullets — tcoupl/constraints/dt cleaner
+- cell 16: replaced "robust plateau" claim with spread metric preview
+- cell 17: added top-10 spread metric print (mean/std/n_unique)
+- cell 18: added cummin best-so-far trace + median line
+- cell 21: header "What happens next" → "Downstream status"
+- cell 22: §10 title tightened; grompp paraphrase fixed; "ratios reliable" replaced with honest disclaimer

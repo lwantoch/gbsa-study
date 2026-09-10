@@ -1,0 +1,28 @@
+pdb,family,chembl_id,uniprot,crystal_ligand,crystal_ligand_rscc,resolution_A,weakest_Ki_nM,split
+8ZP2,Electrochemical transporter,CHEMBL222,P23975,PTY,n/a,2.4,69183,validation
+5M7U,Hydrolase,CHEMBL5921,O60502,XHA,0.94,2.3,2239,validation
+4B6L,Kinase,CHEMBL4897,Q9H4B4,9ZP,0.94,1.9,79433,validation
+4X7Q,Kinase,CHEMBL4523,Q9P1W9,3YR,0.96,2.33,4074,validation
+5HU9,Kinase,CHEMBL1862,P00519,66K,0.95,1.53,417,discovery
+5OTE,Kinase,CHEMBL5052,Q9Y5S2,AQE,0.96,1.68,871,validation
+6Z1T,Kinase,CHEMBL5888,Q99558,Q55,0.99,2.31,3631,validation
+8A27,Kinase,CHEMBL203,P00533,KY9,0.99,1.07,6166,validation
+8ELC,Kinase,CHEMBL4179,P45984,Y56,0.87,2.07,100000,discovery
+8X92,Kinase,CHEMBL2973,O75116,YEW,0.96,2.2,7943,validation
+9J9D,Kinase,CHEMBL4439,P36897,A1L30,0.97,1.34,77625,validation
+9Y9N,Kinase,CHEMBL3788,O00444,A1CTV,0.91,1.81,31623,validation
+9GJ1,Ligand-gated ion channel,CHEMBL2015,Q05586,A1IME,0.98,1.62,10965,validation
+5HJS,Nuclear receptor,CHEMBL2808,Q13133,668,0.82,1.72,30903,validation
+9D9I,Other cytosolic protein,CHEMBL4303,P08238,A1A24,0.97,1.5,32359,discovery
+2XU3,Protease,CHEMBL3837,P07711,XU3,0.98,0.9,10000,discovery
+4A5S,Protease,CHEMBL284,P27487,N7F,0.97,1.62,2884,discovery
+4L7G,Protease,CHEMBL4822,P56817,1W0,0.96,1.38,8913,discovery
+7D5B,Protease,CHEMBL2525,Q9Y5Z0,66F,0.97,1.31,9550,validation
+9SI4,Protease,CHEMBL248,P08246,A1JN2,0.98,1.14,97724,discovery
+4QB3,Reader,CHEMBL1163125,O60885,30M,0.99,0.94,5248,discovery
+6E1Z,Reader,CHEMBL1075317,P61964,HLP,0.95,1.1,398,validation
+9OJO,Secreted protein,CHEMBL1825,P01375,A1CB1,0.95,1.36,46774,validation
+6NRH,Transferase,CHEMBL3105,P09874,KYP,0.96,1.5,4266,validation
+1K4Y,Unclassified,CHEMBL2623,P12337,4PN,n/a,2.5,100000,validation
+3DF9,Unclassified,CHEMBL1250346,P0AF14,DF9,0.95,1.95,64565,validation
+3I06,Unclassified,CHEMBL3563,P25779,QL2,0.98,1.1,30200,discovery
