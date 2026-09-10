@@ -298,18 +298,30 @@ per-complex ΔG variance directly.
   expensive reference of Experiment A1 — winners whose BEDROC point estimate stays inside
   the reference CI *at their cheaper MDP cost* are the deployable configurations.
 
-  The compute path is `gpupack` MPS-packed A100 GPUs. The per-GPU concurrency K is set
-  from the gpupack calibration derived by the companion GPU-MPS-Performance study
-  [@gromacs_mps_study] — i.e. the N*, footprint constants, and δ_HOM measured under the
-  gromacs-mps calibration protocol for the AMBER-ff14SB / TIP3P soluble-system size class
-  that our discovery-9 chains fall into. K is therefore not re-derived here and is not a
-  free parameter of this study; it is inherited from Study A so that the two studies stay
-  aligned. The deployment is chained through a watcher on the short partition
-  (`bo_waves_watcher.sbatch`) that respects the QoS `MaxSubmit = 50` limit; each wave
-  splits into two 90-task array batches. Per (target, ligand) the median, std, and range
-  across the 15 replicas are reported and cross-referenced against Experiment B1a
-  (setup Δ) and B1b (baseline_8t Δ) in a tri-source living notebook that re-reads the
-  aggregated CSVs on every execution.
+  The compute path is `gpupack` MPS-packed A100 GPUs at K = 4 concurrent chains per GPU.
+  Note on the K choice: the companion GPU-MPS-Performance study [@gromacs_mps_study]
+  calibrates the throughput-optimal packing depth N* for **plain GROMACS mdrun** on
+  AMBER-ff14SB / TIP3P soluble-system size classes, and that calibration gives N* ≈ 8 on
+  A100. Our workload is not plain mdrun — each chain also includes AutoDock Vina docking,
+  BSS-mediated multi-stage equilibration, and a CPU-bound `gmx_MMPBSA` sander rescoring
+  step per trajectory. The GBSA rescore contends with the shared per-node CPU and scratch
+  I/O, and an in-repo K-sweep (`K ∈ {2, 4, 6, 8}`, one array task each) found that K = 6
+  and K = 8 hit the six-hour walltime with a mixture of `rc = 143` (SIGTERM at timeout) and
+  `rc = 1` failures, while K = 2 and K = 4 finished all queued chains cleanly. K = 4
+  triples per-GPU throughput versus K = 2 without the K ≥ 6 stability degradation, so K = 4
+  is the workload-specific optimum. A proper gpupack calibration on the full pipeline-mps
+  workload (rather than plain mdrun) is deferred as follow-up; until then K = 4 is a
+  manual workload-aware override, not a value read out of the Study A calibration file.
+
+  The deployment is chained through a watcher on the short partition
+  (`bo_waves_watcher.sbatch`) that respects the QoS `medium` limits (`MaxSubmit = 50` and
+  `MaxJobs = 30` per user, both of which count array tasks individually). Each 720-chain
+  wave splits into six 30-task array batches (labels `a..f`), giving 30 batches total
+  across the five waves; the watcher polls `squeue -r` (array-expanded) to know when
+  enough MaxSubmit headroom exists before submitting the next batch. Per (target, ligand)
+  the median, standard deviation, and range across the 15 replicas are reported and
+  cross-referenced against Experiment B1a (setup Δ) and B1b (baseline_8t Δ) in a
+  tri-source living notebook that re-reads the aggregated CSVs on every execution.
 
 ## Proposed timeline
 
